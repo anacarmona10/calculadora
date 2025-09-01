@@ -13,6 +13,10 @@ function multiplicar(num1, num2) {
   return num1 * num2;
 }
 
+function dividir(num1, num2) {
+  return num1/num2;
+}
+
 // Función principal del programa
 function calculadora() {
   var opcion = prompt(
