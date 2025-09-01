@@ -17,6 +17,14 @@ function dividir(num1, num2) {
   return num1/num2;
 }
 
+function factorial(num1) {
+  let resultado = 1;
+  for (let i = 1; i<= num1; i++){
+    resultado *= i;
+  }
+  return resultado;
+}
+
 // Función principal del programa
 function calculadora() {
   var opcion = prompt(
