@@ -29,6 +29,10 @@ function exponente(num1, exponenteNum){
   return num1 ** exponenteNum;
 }
 
+function raizCuadrada(num1){
+  return Math.sqrt(num1);
+}
+
 // Función principal del programa
 function calculadora() {
   var opcion = prompt(
